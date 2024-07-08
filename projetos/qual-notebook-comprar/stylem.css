@@ -1,0 +1,541 @@
+*{
+
+	font-family: Poppins;
+
+}
+
+.desktop{
+
+	display:none;
+
+}
+
+html{
+
+		margin:0px;
+		padding:0px;
+
+}
+
+body{
+
+	margin:0px;
+	padding:0px;
+	overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+header{
+
+	width:90%;
+	margin:auto;
+	clear:both;
+
+}
+
+
+
+#main{
+
+	width:100%;
+	margin:auto;
+	padding-bottom: 0;
+
+}
+
+#inicio .divisoria{
+
+	padding-bottom: 0;
+	width:90%;
+	margin:auto;
+
+}
+
+
+
+h1{
+
+	font-weight: bold;
+font-size: 30px;
+line-height: 119.5%;
+/* or 60px */
+
+
+color: #0D0063;
+margin-bottom:20px;
+margin-top:30px;
+
+}
+
+#inicio{
+
+	padding-bottom: 0;
+	clear:both;
+
+
+}
+
+#inicio p{
+
+	font-weight: 300;
+font-size: 20px;
+line-height: 125.5%;
+/* or 28px */
+
+clear:both;
+color: #0D0063;
+
+}
+
+#inicio button{
+
+	background: linear-gradient(100.81deg, #2188F8 5%, #2ADEF7 149.95%);
+border-radius: 50px;
+font-weight: bold;
+font-size: 16px;
+line-height: 33px;
+border:none;
+padding:10px;
+padding-left:22px;
+padding-right:22px;
+/* identical to box height */
+
+text-align: center;
+    vertical-align: top;
+color: #FFFFFF;
+margin-top:10px;
+
+}
+
+.img-notebook{
+
+	width:170px;
+	padding-top:20px;
+
+}
+
+
+
+#inicio{
+
+	background-image:url(img/fundo-mobile.png);
+	background-position:bottom;
+	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom:80px;
+
+}
+
+#categorias-miniatura{
+
+	width:90%;
+	margin:auto;
+	position:relative;
+	background: #FCFCFC;
+box-shadow: 3px 3px 10px -3px rgba(91, 91, 91, 0.24);
+border-radius: 30px;
+top:-50px;
+height:495px;
+clear:both;
+
+}
+
+#categorias-miniatura .categoria{
+
+	width:42%;
+	text-align:center;
+	float:left;
+	background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+border-radius: 30px;
+padding-top:30px;
+margin-left:3.7%;
+margin-right:3.2%;
+margin-top:20px;
+
+}
+
+#categorias-miniatura .categoria h2{
+
+	font-weight: normal;
+font-size: 16px;
+line-height: 93.5%;
+/* or 15px */
+
+text-align: center;
+
+color: #343434;
+
+}
+
+.categorias{
+
+	width:90%;
+	margin:auto;
+	
+text-align: center;
+
+}
+
+.categorias .txt h2{
+
+font-weight: bold;
+font-size: 28px;
+line-height: 119.5%;
+/* or 33px */
+
+text-align: left;
+
+color: #343434;
+
+}
+
+.categorias .txt h3{
+
+	font-weight: 600;
+font-size: 22px;
+line-height: 119.5%;
+/* or 26px */
+
+text-align: left;
+color: #4E4E4E;
+
+	}
+
+	.categorias .txt h3{
+
+font-weight: bold;
+font-size: 28px;
+line-height: 119.5%;
+/* or 33px */
+
+text-align: left;
+
+color: #343434;
+
+}
+
+.categorias .txt h4{
+
+	font-weight: 600;
+font-size: 22px;
+line-height: 119.5%;
+/* or 26px */
+
+text-align: left;
+color: #4E4E4E;
+
+	}
+
+	a{
+
+		text-decoration:none;
+
+	}
+
+	.categorias .txt p{
+
+font-weight: normal;
+font-size: 16px;
+line-height: 189%;
+/* or 30px */
+
+text-align: justify;
+
+color: #4E4E4E;
+
+
+	}
+
+
+.categorias .img{
+
+	text-align:center;
+
+}
+
+.categorias .img img{
+
+	width:100%;
+	margin-top:20px;
+
+}
+
+.categorias .txt a{
+
+  	text-decoration:none;
+  	font-weight:bold;
+  	color:rgb(13,0,99);
+
+  }
+
+.categorias button{
+
+	background: linear-gradient(100.81deg, #2188F8 5%, #2ADEF7 149.95%);
+border-radius: 50px;
+font-weight: bold;
+font-size: 18px;
+line-height: 33px;
+border:none;
+padding:10px;
+padding-left:30px;
+cursor:pointer;
+padding-right:30px;
+/* identical to box height */
+
+text-align: center;
+color: #FFFFFF;
+margin-top:10px;
+margin:auto;
+
+}
+
+
+#ofertas-banner img{
+
+	width:360px;
+
+}
+
+#ofertas-banner{
+
+	width:100%;
+	text-align:center;
+	background:#000;
+	margin-top:30px;
+
+}
+
+#marcas{
+
+	width:90%;
+	margin:auto;
+background: #FCFCFC;
+box-shadow: 3px 3px 10px -3px rgba(91, 91, 91, 0.24);
+border-radius: 30px;
+height:625px;
+clear:both;
+margin-top:50px;
+}
+
+#marcas .marca{
+
+width:42%;
+	text-align:center;
+	float:left;
+	background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+border-radius: 30px;
+height:130px;
+margin-left:3.7%;
+margin-right:3.2%;
+margin-top:20px;
+	text-align: center;
+
+}
+
+#marcas .marca h2{
+font-weight: 600;
+font-size: 20px;
+padding-top:0px;
+margin-bottom:0px;
+
+
+
+color: #343434;
+
+}
+
+.marca p{
+
+		font-weight: 600;
+font-size: 30px;
+margin-top:0px;
+color: #343434;
+
+}
+
+footer{
+
+	clear:both;
+	width:100%;
+
+}
+
+#rodape{
+
+	width:100%;
+	clear:both;
+	padding-top:30px;
+
+}
+
+#rodape .img-empresa{
+
+	text-align:center;
+	width:90%;
+	margin:auto;
+
+}
+
+#rodape .inf-empresa{
+
+		background: #F9F9F9;
+		width:100%;
+		padding-bottom:10px;
+		padding-top:10px;
+		margin-top:25px;
+
+}
+
+
+#rodape .inf-empresa p{
+
+margin-left:5%;
+margin-right:5%;
+word-break: break-word;
+font-size: 10px;
+line-height: 137.4%;
+/* or 14px */
+
+
+color: #696969;
+}
+
+#comentariosm{
+
+	background: #111111;
+	padding-top:15px;
+	padding-bottom:15px;
+	clear:both;
+	height:340px;
+	width:100%;
+	color:#fff;
+	margin-top:30px;
+
+}
+
+#conteudo h2{
+
+	font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+margin-bottom:10px;
+color: #FFFFFF;
+clear:both;
+margin-left:4%;
+
+}
+
+#conteudo{
+
+	width:90%;
+	margin:auto;
+
+}
+
+.comentario{
+
+	float:left;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	display:none;
+
+}
+
+.comentario .mensagem{
+
+		width:100%;
+		height:90px;
+border-bottom: 1px solid #2ADEF6;
+border-left: 1px solid #2ADEF6;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+clear:both;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.comentario .estrelas{
+
+		padding-left:25px;
+
+}
+
+.comentario .mensagem p{
+
+	margin-left:25px;
+
+}
+
+.comentario .mensagem .data{
+
+		float:right;
+		font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: right;
+color: #FFFFFF;
+
+}
+
+.comentario .avatar{
+
+		float:left;
+		margin-left:50px;
+		margin-top:30px;
+
+}
+
+.comentario .dados{
+
+		float:left;
+		color: #FFFFFF;
+		margin-left:20px;
+		margin-top:10px;
+
+}
+
+.comentario .dados .nome{
+
+		font-weight: normal;
+font-size: 14px;
+margin-bottom:0px;
+line-height: 21px;
+/* identical to box height */
+
+}
+
+.comentario .dados .cidade{
+
+	font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+margin-top:5px;
+/* identical to box height */
+
+}
+
+#setas{
+
+	float:right;
+	font-size:27px;
+
+
+}
+
+#setas span{
+
+	margin-left:5px;
+
+}

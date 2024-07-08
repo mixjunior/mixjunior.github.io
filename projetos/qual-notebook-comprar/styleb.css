@@ -1,0 +1,347 @@
+*{
+
+	font-family: Poppins;
+
+}
+
+.mobile{
+
+	display:none;
+
+}
+
+
+body{
+
+	margin:0px;
+	padding:0px;
+	overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+header{
+
+	width:90%;
+	margin:auto;
+	clear:both;
+
+}
+
+header p{
+
+	float:right;
+	font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.145em;
+
+color: #2ADEF6;
+
+}
+
+#main{
+
+	width:1700px;
+	margin:auto;
+	padding-bottom: 0;
+
+}
+
+#inicio .divisoria{
+
+	float:left;
+	padding-bottom: 0;
+
+}
+
+h1{
+
+	font-weight: bold;
+font-size: 50px;
+line-height: 119.5%;
+/* or 60px */
+
+
+color: #0D0063;
+margin-bottom:20px;
+margin-top:60px;
+
+}
+
+#inicio{
+
+	width:1200px;
+	margin:auto;
+	padding-bottom: 0;
+	clear:both;
+
+}
+
+#inicio p{
+
+	font-weight: 300;
+font-size: 22px;
+line-height: 125.5%;
+/* or 28px */
+
+clear:both;
+color: #0D0063;
+
+}
+
+#inicio button{
+
+	background: linear-gradient(100.81deg, #2188F8 5%, #2ADEF7 149.95%);
+border-radius: 50px;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+border:none;
+padding:10px;
+padding-left:30px;
+padding-right:30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-top:10px;
+
+}
+
+#fundo-inicio{
+
+	clear:both;
+	height:880px;
+	width:9000px;
+	background: linear-gradient(180.21deg, #0B5DA2 0.27%, #0E025A 99.91%);
+	border-radius:900px 0px 0px 500px;
+	position:relative;
+	top:-780px;
+	z-index:-99;
+	left:550px;
+	margin-bottom:-1080px;
+padding-bottom: 0;
+}
+
+#categorias-miniatura{
+
+	clear:both;
+width: 1500px;
+
+	padding:70px;
+		padding-top:0px;
+	padding-bottom:30px;
+	position:relative;
+	top:80px;
+	margin:auto;
+	box-shadow: 3px 3px 10px -3px rgba(91, 91, 91, 0.24);
+border-radius: 30px;
+	background: #FCFCFC;
+	    height: 225px;
+	    margin-bottom:90px;
+
+}
+
+#categorias-miniatura .categoria{
+
+	    text-align: center;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 33px;
+    float: left;
+    padding: 3px;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 4%);
+    border-radius: 50px;
+    background: #FFFFFF;
+    width: 190px;
+
+}
+
+#categorias-miniatura .categoria .fundo-categoria-miniatura {
+    border-radius: 45px;
+    padding-bottom: 12px;
+    padding-top: 14px;
+    background-color: #fff;
+}
+
+#categorias-miniatura .categoria h2{
+
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 7px;
+    color: #343434;
+    line-height: 99.5%;
+ }
+
+ .img-categoria-miniatura{
+
+width: 100px;
+    height: 100px;
+border-radius:80px;
+ 	margin:auto;
+background: rgba(0, 177, 235, 0.14);
+ }
+
+ .img-categoria-miniatura img{
+
+ 	margin-top:20px;
+ 	height: 60px;
+
+ }
+
+ .categorias div{
+
+ 	float:left;
+
+ }
+
+ .categorias .txt{
+
+ 	width:55%;
+
+ }
+
+.categorias .img{
+
+ 	width:45%;
+
+ }
+
+ .categorias p{
+
+ 	margin:auto;
+ 	width:90%;
+ 	font-weight: normal;
+font-size: 20px;
+line-height: 189%;
+/* or 30px */
+
+text-align: justify;
+
+color: #4E4E4E;
+margin-bottom:30px;
+
+ }
+
+ .categorias h2{
+font-weight: bold;
+font-size: 32px;
+line-height: 119.5%;
+/* or 38px */
+text-align: justify;
+
+color: #343434;
+margin-left:5%;
+
+
+ }
+
+ .categorias h3{
+
+ 	font-weight: 600;
+font-size: 26px;
+line-height: 119.5%;
+/* or 29px */
+text-align: justify;
+
+color: #4E4E4E;
+margin-left:5%;
+
+ }
+
+  .categorias{
+
+  	clear:both;
+  	padding-top:90px;
+  	text-align:center;
+
+  }
+
+.categorias button{
+
+	background: linear-gradient(100.81deg, #2188F8 5%, #2ADEF7 149.95%);
+border-radius: 50px;
+font-weight: bold;
+font-size: 18px;
+line-height: 33px;
+border:none;
+padding:10px;
+padding-left:30px;
+padding-right:30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-top:10px;
+
+}
+
+
+
+#ofertas-banner img{
+
+	margin-top:100px;
+	width:100%;
+
+}
+
+#marcas{
+
+width:1400px;
+margin:auto;
+
+	padding:35px;
+		padding-top:0px;
+	padding-bottom:30px;
+box-shadow: 3px 3px 10px -3px rgba(91, 91, 91, 0.24);
+border-radius: 30px;
+	background: #FCFCFC;
+	height:160px;
+	margin-top:50px;
+
+
+}
+
+.marca{
+
+	width: 153px;
+height: 122px;
+	background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+border-radius: 30px;
+
+line-height: 93.5%;
+/* identical to box height, or 19px */
+
+text-align: center;
+float:left;
+color: #343434;
+margin-left:10px;
+margin-right:10px;
+margin-top:30px;
+}
+
+.marca h2{
+font-weight: 600;
+font-size: 20px;
+padding-top:20px;
+margin-bottom:10px;
+
+}
+
+.marca p{
+
+
+	font-weight: 600;
+font-size: 30px;
+margin-top:0px;
+}
+
+
+.marca .processador{
+
+	padding-top:5px;
+
+}
