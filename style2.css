@@ -1,0 +1,541 @@
+
+@media (min-width: 651px) {
+
+.mobile{
+
+        display:none;
+
+    }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #38b5c9;
+    overflow: hidden;
+    font-size: 0.833vw; /* Base size */
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#intro {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#intro h1 {
+    font-size: 2.083vw; /* Proporcional a 2.5rem */
+    color: yellow;
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+}
+
+#intro h2 {
+    font-size: 1.25vw; /* Proporcional a 1.5rem */
+    line-height: 1.302vw; /* Proporcional a 25px */
+    color: yellow;
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+    margin: auto;
+    width: 80%;
+}
+
+#intro p {
+    margin-top: 2.083vw; /* Proporcional a 40px */
+    font-size: 1.083vw; /* Proporcional a 1.3rem */
+    line-height: 1.563vw; /* Proporcional a 30px */
+    text-shadow: -0.104vw -0.104vw 0 #000, 0.104vw -0.104vw 0 #000, -0.104vw 0.104vw 0 #000, 0.104vw 0.104vw 0 #000;
+}
+
+img#prime-island {
+    width: 10.417vw; /* Proporcional a 200px */
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    z-index: 1;
+}
+
+#boat {
+    width: 3.646vw; /* Proporcional a 70px */
+    height: 3.646vw; /* Proporcional a 70px */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('boat.png');
+    background-size: cover;
+    transition: top 2s, left 2s;
+}
+
+.island {
+    width: fit-content;
+    height: 5.208vw; /* Proporcional a 100px */
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.521vw; /* Proporcional a 10px */
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.island:hover {
+    transition: 0.2s;
+    opacity: 1 !important;
+}
+
+.island p {
+    color: #fff;
+    font-size: 1.302vw; /* Proporcional a 25px */
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+}
+
+.island img {
+    height: 10.417vw; /* Proporcional a 200px */
+}
+
+#about-island {
+    top: 10%;
+    left: 15%;
+}
+
+#skills-island {
+    top: 10%;
+    right: 10%;
+}
+
+#projects-island {
+    bottom: 20%;
+    left: 20%;
+}
+
+#contact-island {
+    bottom: 20%;
+    right: 20%;
+}
+
+#about-island p {
+    text-shadow: -0.13vw -0.13vw 0 #FF8C00, 0.13vw -0.13vw 0 #FF8C00, -0.13vw 0.13vw 0 #FF8C00, 0.13vw 0.13vw 0 #FF8C00 !important;
+}
+
+#skills-island p {
+    text-shadow: -0.13vw -0.13vw 0 #008B8B, 0.13vw -0.13vw 0 #008B8B, -0.13vw 0.13vw 0 #008B8B, 0.13vw 0.13vw 0 #008B8B !important;
+}
+
+#projects-island p {
+    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+    
+}
+
+#contact-island p {
+    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+    
+}
+
+#info-panel {
+    border: 0.156vw solid #fff; /* Proporcional a 3px */
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 1.042vw; /* Proporcional a 20px */
+    border-radius: 0.521vw; /* Proporcional a 10px */
+    z-index: 10;
+    max-height: 39.0625vw;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.info {
+    display: none;
+}
+
+.info h2 {
+    margin-top: 0;
+    clear:both;
+    text-shadow: -0.104vw -0.104vw 0 #000, 0.104vw -0.104vw 0 #000, -0.104vw 0.104vw 0 #000, 0.104vw 0.104vw 0 #000 !important;
+}
+
+.info p {
+    line-height: 1.563vw; /* Proporcional a 30px */
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+}
+
+.info h3 {
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+    margin-top: 2.083vw; /* Proporcional a 40px */
+}
+
+.info a {
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+}
+
+.info ul li {
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+    margin: 0;
+    margin-left: 0.521vw; /* Proporcional a 10px */
+    margin-right: 0.521vw; /* Proporcional a 10px */
+    width: 47%;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.563vw; /* Proporcional a 30px */
+}
+
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.project a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.fechar-panel {
+    float: right;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.fechar-panel p{
+
+     text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+     text-decoration: underline;
+
+}
+
+.project {
+    clear: both;
+    margin-bottom: 1.5625vw;
+    overflow: hidden;
+ 
+}
+
+.project .descricao {
+    float: left;
+    width: 70%; /* porcentagem permanece a mesma */
+    padding: 1.0417vw;
+}
+
+.project img {
+    float: left;
+    width: 25%; /* porcentagem permanece a mesma */
+    margin-left: 1.0417vw;
+}
+
+}
+
+@media (max-width: 651px) {
+
+    .desktop{
+
+        display:none;
+
+    }
+
+    body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #38b5c9;
+    overflow: hidden;
+    font-size: 1.563vw; /* Base size para largura de 650px */
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#intro {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+        width: 80%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#intro h1 {
+    font-size: 5vw; /* Proporcional a 2.083vw para 1920px */
+    color: yellow;
+    text-shadow: 0.167vw 0.167vw 0.333vw #000;
+}
+
+#intro h2 {
+        font-size: 2.5vw;
+    line-height: 3.5vw;
+    margin-top: 10vw;
+    color: yellow;
+    text-shadow: 0.167vw 0.167vw 0.333vw #000;
+    margin: auto;
+    width: 80%;
+}
+
+#intro p {
+        margin-top: 5vw;
+    font-size: 2.2vw;
+    line-height: 3.2vw;
+    text-shadow: -0.167vw -0.167vw 0 #000, 0.167vw -0.167vw 0 #000, -0.167vw 0.167vw 0 #000, 0.167vw 0.167vw 0 #000;
+}
+
+img#prime-island {
+    width: 25vw;
+    position: absolute;
+    top: 45%;
+    left: 33.846vw;
+    z-index: 1;
+}
+
+#boat {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('boat.png');
+    background-size: cover;
+    transition: top 2s, left 2s;
+}
+
+.island {
+    width: fit-content;
+    height: 8vw; /* Proporcional a 5.208vw para 1920px */
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.8vw; /* Proporcional a 0.521vw para 1920px */
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.island:hover {
+    transition: 0.2s;
+    opacity: 1 !important;
+}
+
+.island p {
+    color: #fff;
+       font-size: 2.8vw; /* Proporcional a 1.302vw para 1920px */
+    text-shadow: 0.167vw 0.167vw 0.333vw #000;
+}
+
+.island img {
+    height: 25vw; /* Proporcional a 10.417vw para 1920px */
+}
+
+#about-island {
+    top: 6.154vw; /* Proporcional a 10% para 1920px */
+        left: 10vw;/* Proporcional a 15% para 1920px */
+}
+
+#about-info img {
+       width: 30%;
+    text-align: center;
+    clear: both !important;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+#about-info div {
+        width: 96% !important;
+    padding-right: 3%;
+}
+
+#skills-island {
+    top: 6.154vw; /* Proporcional a 10% para 1920px */
+    right: 5vw; /* Proporcional a 10% para 1920px */
+}
+
+#projects-island {
+    bottom: 12.308vw; /* Proporcional a 20% para 1920px */
+    top: 130vw;
+    left: 10vw; /* Proporcional a 20% para 1920px */
+}
+
+#contact-island {
+        bottom: 12.308vw;
+    right: 10vw;
+    top: 130vw;
+}
+
+#about-island p {
+    text-shadow: -0.2vw -0.2vw 0 #FF8C00, 0.2vw -0.2vw 0 #FF8C00, -0.2vw 0.2vw 0 #FF8C00, 0.2vw 0.2vw 0 #FF8C00 !important;
+}
+
+#skills-island p {
+    text-shadow: -0.2vw -0.2vw 0 #008B8B, 0.2vw -0.2vw 0 #008B8B, -0.2vw 0.2vw 0 #008B8B, 0.2vw 0.2vw 0 #008B8B !important;
+}
+
+#projects-island p {
+    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+    
+}
+
+#contact-island p {
+    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+    
+}
+
+#info-panel {
+    border: 0.3vw solid #fff; /* Proporcional a 0.156vw para 1920px */
+    display: none;
+    position: absolute;
+    top: 6.154vw; /* Proporcional a 10% para 1920px */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 1.538vw; /* Proporcional a 20px para 1920px */
+    border-radius: 0.8vw; /* Proporcional a 10px para 1920px */
+    z-index: 10;
+    max-height: 90%; /* Proporcional a 39.0625vw para 1920px */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.info {
+    display: none;
+}
+
+.info h2 {
+    margin-top: 0;
+    clear:both;
+    text-shadow: -0.2vw -0.2vw 0 #000, 0.2vw -0.2vw 0 #000, -0.2vw 0.2vw 0 #000, 0.2vw 0.2vw 0 #000 !important;
+}
+
+.info p {
+    line-height: 4vw;
+    font-size: 1.99vw;
+    text-shadow: -0.156vw -0.156vw 0 #000, 0.156vw -0.156vw 0 #000, -0.156vw 0.156vw 0 #000, 0.156vw 0.156vw 0 #000 !important;
+}
+
+.info h3 {
+    text-shadow: -0.156vw -0.156vw 0 #000, 0.156vw -0.156vw 0 #000, -0.156vw 0.156vw 0 #000, 0.156vw 0.156vw 0 #000 !important;
+        font-size: 2.2vw;
+    margin-top: 3.077vw; /* Proporcional a 40px para 1920px */
+    line-height: 3.5vw;
+}
+
+.info a {
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: -0.156vw -0.156vw 0 #000, 0.156vw -0.156vw 0 #000, -0.156vw 0.156vw 0 #000, 0.156vw 0.156vw 0 #000 !important;
+}
+
+.info ul li {
+        text-shadow: -0.156vw -0.156vw 0 #000, 0.156vw -0.156vw 0 #000, -0.156vw 0.156vw 0 #000, 0.156vw 0.156vw 0 #000 !important;
+    margin: 0;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+        width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 3.2vw;
+    font-size: 1.99vw;
+        margin-top: 3vw;
+}
+
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.project a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.fechar-panel {
+    float: right;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.fechar-panel p{
+
+     text-shadow: -0.156vw -0.156vw 0 #000, 0.156vw -0.156vw 0 #000, -0.156vw 0.156vw 0 #000, 0.156vw 0.156vw 0 #000 !important;
+     text-decoration: underline;
+
+}
+
+.project {
+    clear: both;
+    margin-bottom: 2.4vw; /* Proporcional a 1.5625vw para 1920px */
+    overflow: hidden;
+}
+
+.project .descricao {
+        float: left;
+    width: 95%;
+    padding: 1.538vw;
+}
+
+.project img {
+   
+        width: 60% !important;
+    margin-left: 20%;
+}
+
+
+}
+
