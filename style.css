@@ -1,0 +1,245 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #38b5c9;
+    overflow: hidden;
+    font-size: 0.833vw; /* Base size */
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#intro {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#intro h1 {
+    font-size: 2.083vw; /* Proporcional a 2.5rem */
+    color: yellow;
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+}
+
+#intro h2 {
+    font-size: 1.25vw; /* Proporcional a 1.5rem */
+    line-height: 1.302vw; /* Proporcional a 25px */
+    color: yellow;
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+    margin: auto;
+    width: 80%;
+}
+
+#intro p {
+    margin-top: 2.083vw; /* Proporcional a 40px */
+    font-size: 1.083vw; /* Proporcional a 1.3rem */
+    line-height: 1.563vw; /* Proporcional a 30px */
+    text-shadow: -0.104vw -0.104vw 0 #000, 0.104vw -0.104vw 0 #000, -0.104vw 0.104vw 0 #000, 0.104vw 0.104vw 0 #000;
+}
+
+img#prime-island {
+    width: 10.417vw; /* Proporcional a 200px */
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    z-index: 1;
+}
+
+#boat {
+    width: 3.646vw; /* Proporcional a 70px */
+    height: 3.646vw; /* Proporcional a 70px */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('boat.png');
+    background-size: cover;
+    transition: top 2s, left 2s;
+}
+
+.island {
+    width: fit-content;
+    height: 5.208vw; /* Proporcional a 100px */
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.521vw; /* Proporcional a 10px */
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.island:hover {
+    transition: 0.2s;
+    opacity: 1 !important;
+}
+
+.island p {
+    color: #fff;
+    font-size: 1.302vw; /* Proporcional a 25px */
+    text-shadow: 0.104vw 0.104vw 0.208vw #000;
+}
+
+.island img {
+    height: 10.417vw; /* Proporcional a 200px */
+}
+
+#about-island {
+    top: 10%;
+    left: 15%;
+}
+
+#skills-island {
+    top: 10%;
+    right: 10%;
+}
+
+#projects-island {
+    bottom: 20%;
+    left: 20%;
+}
+
+#contact-island {
+    bottom: 20%;
+    right: 20%;
+}
+
+#about-island p {
+    text-shadow: -0.13vw -0.13vw 0 #FF8C00, 0.13vw -0.13vw 0 #FF8C00, -0.13vw 0.13vw 0 #FF8C00, 0.13vw 0.13vw 0 #FF8C00 !important;
+}
+
+#skills-island p {
+    text-shadow: -0.13vw -0.13vw 0 #008B8B, 0.13vw -0.13vw 0 #008B8B, -0.13vw 0.13vw 0 #008B8B, 0.13vw 0.13vw 0 #008B8B !important;
+}
+
+#projects-island p {
+    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+}
+
+#contact-island p {
+    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+}
+
+#info-panel {
+    border: 0.156vw solid #fff; /* Proporcional a 3px */
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 1.042vw; /* Proporcional a 20px */
+    border-radius: 0.521vw; /* Proporcional a 10px */
+    z-index: 10;
+    max-height: 39.0625vw;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.info {
+    display: none;
+}
+
+.info h2 {
+    margin-top: 0;
+    clear:both;
+    text-shadow: -0.104vw -0.104vw 0 #000, 0.104vw -0.104vw 0 #000, -0.104vw 0.104vw 0 #000, 0.104vw 0.104vw 0 #000 !important;
+}
+
+.info p {
+    line-height: 1.563vw; /* Proporcional a 30px */
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+}
+
+.info h3 {
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+    margin-top: 2.083vw; /* Proporcional a 40px */
+}
+
+.info a {
+    text-decoration: underline;
+    color: #fff;
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+}
+
+.info ul li {
+    text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+    margin: 0;
+    margin-left: 0.521vw; /* Proporcional a 10px */
+    margin-right: 0.521vw; /* Proporcional a 10px */
+    width: 47%;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.563vw; /* Proporcional a 30px */
+}
+
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.project a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.fechar-panel {
+    float: right;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.fechar-panel p{
+
+     text-shadow: -0.078vw -0.078vw 0 #000, 0.078vw -0.078vw 0 #000, -0.078vw 0.078vw 0 #000, 0.078vw 0.078vw 0 #000 !important;
+     text-decoration: underline;
+
+}
+
+.project {
+    clear: both;
+    margin-bottom: 1.5625vw;
+    overflow: hidden;
+}
+
+.project .descricao {
+    float: left;
+    width: 70%; /* porcentagem permanece a mesma */
+    padding: 1.0417vw;
+}
+
+.project img {
+    float: left;
+    width: 25%; /* porcentagem permanece a mesma */
+    margin-left: 1.0417vw;
+}
+

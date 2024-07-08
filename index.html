@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaqueu Moreira - Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="map">
+        <video autoplay muted loop id="bg-video">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+        <div id="intro">
+            <h1>Zaqueu Moreira</h1>
+            <h2>Desenvolvedor de software focado em criar soluções inovadoras e eficientes</h2>
+            <p>Clique nas ilhas para navegar pelo portfólio e conhecer mais sobre meu trabalho.</p>
+        </div>
+        <img id="prime-island" src="islands/ilha5.png">
+        <div id="boat">
+            
+        </div>
+        <div class="island" id="about-island" data-cor="rgba(255, 140, 0,0.9)">
+            <p><i class="fas fa-user"></i> Sobre Mim</p>
+            <p><img src="islands/ilha1.png"></p>
+        </div>
+        <div class="island" id="skills-island" data-cor="rgba(0, 139, 139,0.9)">
+            <p><i class="fas fa-laptop-code"></i> Conhecimentos</p>
+            <p><img src="islands/ilha2.png"></p>
+        </div>
+        <div class="island" id="projects-island" data-cor="rgba(255, 20, 147,0.9)">
+            <p><i class="fas fa-project-diagram"></i> Projetos</p>
+            <p><img src="islands/ilha3.png"></p>
+        </div>
+        <div class="island" id="contact-island" data-cor="rgba(30, 144, 255,0.9)">
+            <p><i class="fas fa-envelope"></i> Contato</p>
+            <p><img src="islands/ilha4.png"></p>
+        </div>
+    </div>
+    <div id="info-panel">
+        <div class="fechar-panel"><p>Fechar</p></div>
+        <div class="info" id="about-info">
+            <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+            <img src="avatar.png" style="float:left">
+            <div style="
+    float: left;
+    overflow: hidden;
+    width: 80%;
+    padding-left: 3%;
+">
+           <p >Sou desenvolvedor de software com 4 anos de experiência, especializado em PHP, Python, HTML, CSS, JavaScript/jQuery, SQL e PrestaShop. Tenho experiência na criação de aplicações e sistemas para a web, incluindo integrações com ChatGPT. Sou um profissional proativo, focado e autodidata, sempre buscando soluções eficientes e inovadoras.</p>
+        <h3 style="text-shadow: -2px -2px 0 #703f03 , 2px -2pxx 0 #703f03 , -2px 2px 0 #703f03 , 2px 2px 0 #703f03 !important;"><i class="fas fa-graduation-cap"></i> Minha formação</h3>
+        <ul >
+            <li style="text-shadow: -1.5px -1.5px 0 #703f03 , 1.5px -1.5px 0 #703f03 , -1.5px 1.5px 0 #703f03 , 1.5px 1.5px 0 #703f03 !important;">Fatec carapicuíba - Técnologo em Sistemas para internet</li>
+            <li style="text-shadow: -1.5px -1.5px 0 #703f03 , 1.5px -1.5px 0 #703f03 , -1.5px 1.5px 0 #703f03 , 1.5px 1.5px 0 #703f03 !important;">Senai Jandira - Curso técnico de informática</li>
+        </ul>
+       </div>
+        </div>
+        <div class="info" id="skills-info">
+            <h2><i class="fas fa-laptop-code"></i> Conhecimentos</h2>
+            <ul>
+                <li>
+                    <h3><i class="fab fa-php"></i> PHP</h3>
+                    <p>Eu sei desenvolver aplicações em PHP, incluindo operações CRUD (Create, Read, Update, Delete). Utilizo PHP principalmente para a programação de funcionalidades em sites.</p>
+                </li>
+
+                <li>
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <p>Tenho proficiência em Python puro e também na gestão do RASA IA, uma ferramenta para construção de assistentes virtuais inteligentes.</p>
+                </li>
+                <li>
+                    <h3><i class="fab fa-html5"></i> HTML, CSS e JavaScript/jQuery</h3>
+                    <p>Sou habilidoso na criação de sites e interfaces de usuário, aplicando HTML para estruturação, CSS para estilização e JavaScript/jQuery para adicionar interatividade e efeitos visuais.</p>
+                </li>
+                <li>
+                    <h3><i class="fas fa-database"></i> SQL</h3>
+                    <p>Sei realizar consultas SQL e gerenciar comandos de banco de dados MySQL, garantindo a integridade e eficiência das operações de dados.</p>
+                </li>
+                <li>
+                    <h3><i class="fas fa-shopping-cart"></i> PrestaShop</h3>
+                    <p>Tenho experiência na criação e customização de lojas online usando PrestaShop, adaptando-as para atender às necessidades específicas de cada projeto.</p>
+                </li>
+                <li>
+                    <h3><i class="fas fa-robot"></i> Integração com ChatGPT</h3>
+                    <p>Tenho a capacidade de desenvolver aplicações que se conectam e interagem com o ChatGPT, permitindo a criação de soluções inteligentes e conversacionais.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="info" id="projects-info" style="clear:both">
+            <h2>Projetos</h2>
+
+            <div class="project">
+                <div class="descricao">
+                    <h3>Landing page: Qual notebook comprar</h3>
+                    <p>Desenvolvi uma landing page interativa para a empresa Saldão da Informática, utilizando HTML, CSS e JavaScript. Esta página foi projetada para ajudar os clientes a escolherem o notebook ideal, aumentando a conversão de vendas.</p><br>
+                    <p><a href="projetos/qual-notebook-comprar/index.html" target="_blank">Visualizar projeto</a></p>
+                </div>
+                <img style="float:left;width:25%" src="imgs/projetos/projeto1.png">
+            </div>
+
+            <div class="project">
+                
+                <img src="imgs/projetos/projeto2.png">
+                <div class="descricao">
+                    <h3>Simple infinity Tic Tac Toe</h3>
+                    <p>Desenvolvi um jogo da velha simples e infinito para Android utilizando Kotlin. Este jogo permite que os jogadores se desafiem em partidas contínuas, onde cada jogador pode ter até três jogadas simultâneas na tela. A quarta jogada de um jogador substituirá a primeira, criando uma dinâmica única e contínua.</p><br>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.zaqueu.infinitetictactoe" target="_blank">ir para Playstore (em breve)</a></p><p><a href="projetos/simpleinfinitytictactoe.apk">Baixar apk</a></p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="descricao">
+                    <h3>Calculadora Freelancer</h3>
+                    <p>Este projeto é uma calculadora freelancer desenvolvida utilizando HTML, CSS e JavaScript. A ferramenta permite que freelancers estimem os valores de seus projetos e o valor por hora de trabalho de forma simples e eficiente.</p><br>
+                    <p><a href="projetos/calculadora-freelancer/index.html" target="_blank">Visualizar projeto</a></p>
+                </div>
+                <img style="float:left;width:25%" src="imgs/projetos/projeto3.png">
+            </div>
+
+            <div class="project">
+                
+                <img src="imgs/projetos/projeto4.png">
+                <div class="descricao">
+                    <h3>Meu portfólio</h3>
+                    <p>Desenvolvi meu portfólio pessoal utilizando HTML, CSS, JavaScript e jQuery para apresentar meu trabalho de maneira interativa e envolvente. O portfólio possui um layout gamificado, onde os visitantes podem navegar por um mapa com ilhas que representam diferentes seções. Cada ilha revela informações detalhadas sobre minhas habilidades, projetos e experiência profissional.</p>
+                   
+                </div>
+            </div>
+
+
+        </div>
+        <div class="info" id="contact-info" style="clear:both">
+            <h2><i class="fas fa-envelope"></i> Contato</h2>
+            <p>Estou aberto a novas oportunidades e colaborações. Entre em contato:</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:zaqueumoreira.contato@gmail.com">zaqueumoreira.contato@gmail.com</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/zaqueu-moreira-abb870186/">Linkedin</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/mixjunior" target="_blank">github</a></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
