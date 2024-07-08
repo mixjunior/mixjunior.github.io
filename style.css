@@ -144,11 +144,13 @@ img#prime-island {
 }
 
 #projects-island p {
-    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+    
 }
 
 #contact-island p {
-    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+    
 }
 
 #info-panel {
@@ -419,11 +421,13 @@ img#prime-island {
 }
 
 #projects-island p {
-    text-shadow: -0.2vw -0.2vw 0 #FF1493, 0.2vw -0.2vw 0 #FF1493, -0.2vw 0.2vw 0 #FF1493, 0.2vw 0.2vw 0 #FF1493 !important;
+    text-shadow: -0.13vw -0.13vw 0 #1E90FF, 0.13vw -0.13vw 0 #1E90FF, -0.13vw 0.13vw 0 #1E90FF, 0.13vw 0.13vw 0 #1E90FF !important;
+    
 }
 
 #contact-island p {
-    text-shadow: -0.2vw -0.2vw 0 #1E90FF, 0.2vw -0.2vw 0 #1E90FF, -0.2vw 0.2vw 0 #1E90FF, 0.2vw 0.2vw 0 #1E90FF !important;
+    text-shadow: -0.13vw -0.13vw 0 #FF1493, 0.13vw -0.13vw 0 #FF1493, -0.13vw 0.13vw 0 #FF1493, 0.13vw 0.13vw 0 #FF1493 !important;
+    
 }
 
 #info-panel {
