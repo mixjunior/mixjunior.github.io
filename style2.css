@@ -12,7 +12,8 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Consolas";
+    font-family: 'Press Start 2P', "Consolas";
     background-color: #38b5c9;
     overflow: hidden;
     font-size: 0.833vw; /* Base size */
@@ -82,7 +83,7 @@ img#prime-island {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('boat.png');
+    background-image: url('boat.webp');
     background-size: cover;
     transition: top 2s, left 2s;
 }
