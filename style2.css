@@ -113,7 +113,7 @@ img#prime-island {
 }
 
 .island img {
-    height: 10.417vw; /* Proporcional a 200px */
+    height: fit-content; /* Proporcional a 200px */
 }
 
 #about-island {
@@ -295,7 +295,7 @@ img#prime-island {
 
 #intro {
     position: absolute;
-    top: 34%;
+            top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -323,15 +323,16 @@ img#prime-island {
 
 #intro p {
         margin-top: 5vw;
-    font-size: 1.8vw;
+    font-size: 2vw;
     line-height: 3.2vw;
     text-shadow: -0.167vw -0.167vw 0 #000, 0.167vw -0.167vw 0 #000, -0.167vw 0.167vw 0 #000, 0.167vw 0.167vw 0 #000;
 }
 
 img#prime-island {
     width: 25vw;
+            height: fit-content;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 33.846vw;
     z-index: 1;
 }
@@ -343,13 +344,14 @@ img#prime-island {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('boat.png');
+    background-image: url('boat.webp');
     background-size: cover;
     transition: top 2s, left 2s;
 }
 
 .island {
     width: fit-content;
+
     height: 8vw; /* Proporcional a 5.208vw para 1920px */
     border-radius: 50%;
     position: absolute;
@@ -373,7 +375,9 @@ img#prime-island {
 }
 
 .island img {
-    height: 25vw; /* Proporcional a 10.417vw para 1920px */
+    width: 25vw;
+    height: fit-content; /* Proporcional a 10.417vw para 1920px */
+
 }
 
 #about-island {
@@ -403,14 +407,14 @@ img#prime-island {
 
 #projects-island {
     bottom: 12.308vw; /* Proporcional a 20% para 1920px */
-    top: 130vw;
+    top: 110vw;
     left: 10vw; /* Proporcional a 20% para 1920px */
 }
 
 #contact-island {
         bottom: 12.308vw;
     right: 10vw;
-    top: 130vw;
+    top: 110vw;
 }
 
 #about-island p {
