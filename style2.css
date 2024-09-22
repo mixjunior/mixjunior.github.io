@@ -53,7 +53,7 @@ body, html {
 }
 
 #intro h2 {
-    font-size: 1.25vw; /* Proporcional a 1.5rem */
+    font-size: 2vw; /* Proporcional a 1.5rem */
     line-height: 1.302vw; /* Proporcional a 25px */
     color: yellow;
     text-shadow: 0.104vw 0.104vw 0.208vw #000;
@@ -63,7 +63,7 @@ body, html {
 
 #intro p {
     margin-top: 2.083vw; /* Proporcional a 40px */
-    font-size: 1.083vw; /* Proporcional a 1.3rem */
+    font-size: 1.846vw; /* Proporcional a 1.3rem */
     line-height: 1.563vw; /* Proporcional a 30px */
     text-shadow: -0.104vw -0.104vw 0 #000, 0.104vw -0.104vw 0 #000, -0.104vw 0.104vw 0 #000, 0.104vw 0.104vw 0 #000;
 }
@@ -108,7 +108,7 @@ img#prime-island {
 
 .island p {
     color: #fff;
-    font-size: 1.302vw; /* Proporcional a 25px */
+    font-size: 2.154vw; /* Proporcional a 25px */
     text-shadow: 0.104vw 0.104vw 0.208vw #000;
 }
 
